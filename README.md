@@ -14,5 +14,5 @@ Ficheros requeridos:
 - **Dockerfile**: fichero que automatice el proceso de creación de la imagen de la tarea.
 
 ## Notas de Egoitz en la entrega
-- Para cargar desde el dockerFile descargar todos el contenido del repositorio.
+- Para cargar desde el dockerFile descargar todo el contenido del repositorio.
 - Para cargar el tar ejecutar:docker load --input eglarrea.tar
