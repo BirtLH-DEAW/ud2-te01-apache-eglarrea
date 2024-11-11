@@ -12,3 +12,7 @@ Recursos disponibles para esta tarea:
 Ficheros requeridos:
 - **Fichero .TAR**: fichero para la imagen de la tarea.
 - **Dockerfile**: fichero que automatice el proceso de creación de la imagen de la tarea.
+
+## Notas de Egoitz en la entrega
+- Para cargar desde el dockerFile descargar todos el contenido del repositorio.
+- Para cargar el tar ejecutar:docker load --input eglarrea.tar
