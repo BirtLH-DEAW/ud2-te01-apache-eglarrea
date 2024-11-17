@@ -1,6 +1,8 @@
 #Obtenemos la imagen de ubuntu apache
 FROM ubuntu/apache2
 
+LABEL autors="Egoitz Larrea" version="1.0" description="Ubuntu+Apache+nano+certificado+sitedefault" creationDate="11-11-2024"
+
 #Actualizamos los paquetes e instalamos ssl
 RUN apt-get update && apt-get install openssl
 
@@ -30,4 +32,4 @@ COPY ["./User website/", "/var/www/eglarrea/"]
 #Creamos el usuario y pass
 RUN htpasswd -cb /etc/apache2/.htpasswd deaw deaw
 
-EXPOSE 443
+EXPOSE 80 443
