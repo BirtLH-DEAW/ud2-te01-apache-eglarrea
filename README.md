@@ -12,6 +12,7 @@ Recursos disponibles para esta tarea:
 Ficheros requeridos:
 - **Fichero .TAR**: fichero para la imagen de la tarea.
 - **Dockerfile**: fichero que automatice el proceso de creación de la imagen de la tarea.
+- **host.txt**: Texto con el host para añadir en el fichero host de windows
 
 ## Notas de Egoitz en la entrega (www.eglarrea-birt.eus)
 - Para cargar desde el dockerFile descargar todo el contenido del repositorio.
